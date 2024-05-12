@@ -2,13 +2,15 @@ import htmllogo from "../assests/html.png";
 import csslogo from "../assests/css.png";
 import javascriptlogo from "../assests/javascript.png";
 import reactlogo from "../assests/react.png";
-import expressjslogo from "../assests/expressjs.png";
+// import expressjslogo from "../assests/expressjs.png";
+import nextjslogo from "../assests/nextjs.png";
 import mongodblogo from "../assests/mongodb.png";
 import postgreslogo from "../assests/postgres.png";
 import nodejslogo from "../assests/nodejs.png";
 import tailwindlogo from "../assests/tailwind.png";
-import styledcomponentlogo from "../assests/styledcomponents.png";
+// import styledcomponentlogo from "../assests/styledcomponents.png";
 import gitlogo from "../assests/git.png";
+import dockerlogo from "../assests/docker.png";
 
 const Skills = () => {
   return (
@@ -60,6 +62,26 @@ const Skills = () => {
         </div>
         <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
           <img
+            src={nextjslogo}
+            alt="express"
+            width={100}
+            height={100}
+            className="hover:scale-90"
+          />
+          <p className="mt-2">Next</p>
+        </div>
+        <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+          <img
+            src={tailwindlogo}
+            alt="tailwind"
+            width={100}
+            height={100}
+            className="hover:scale-90"
+          />
+          <p className="mt-2">Tailwind</p>
+        </div>
+        <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+          <img
             src={nodejslogo}
             alt="node"
             width={100}
@@ -67,16 +89,6 @@ const Skills = () => {
             className="hover:scale-90"
           />
           <p className="mt-2">Node</p>
-        </div>
-        <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
-          <img
-            src={expressjslogo}
-            alt="express"
-            width={100}
-            height={100}
-            className="hover:scale-90"
-          />
-          <p className="mt-2">Express</p>
         </div>
         <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
           <img
@@ -100,26 +112,6 @@ const Skills = () => {
         </div>
         <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
           <img
-            src={styledcomponentlogo}
-            alt="styledcomponent"
-            width={100}
-            height={100}
-            className="hover:scale-90"
-          />
-          <p className="mt-2">SC</p>
-        </div>
-        <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
-          <img
-            src={tailwindlogo}
-            alt="tailwind"
-            width={100}
-            height={100}
-            className="hover:scale-90"
-          />
-          <p className="mt-2">Tailwind</p>
-        </div>
-        <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
-          <img
             src={gitlogo}
             alt="git"
             width={100}
@@ -127,6 +119,16 @@ const Skills = () => {
             className="hover:scale-90"
           />
           <p className="mt-2">git</p>
+        </div>
+        <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+          <img
+            src={dockerlogo}
+            alt="styledcomponent"
+            width={100}
+            height={100}
+            className="hover:scale-90"
+          />
+          <p className="mt-2">Docker</p>
         </div>
       </div>
     </div>

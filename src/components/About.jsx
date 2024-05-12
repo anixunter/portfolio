@@ -20,8 +20,12 @@ const About = () => {
                 About <span>Me</span>
               </h3>
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                Hi there, I am Anish Sharma from Nepal who loves to create
-                interesing things on web.
+                Hello! I'm Anish Sharma, an experienced software developer with
+                a passion for building impactful web applications. With over 2
+                years of professional experience, I specialize in front-end
+                development using React.js and Next.js, as well as back-end
+                development with Node.js. I have extensive experience working
+                with databases, including MongoDB and PostgreSQL.
               </p>
             </div>
           </div>

@@ -15,6 +15,42 @@ const Projects = () => {
       </div>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 mt-6">
         <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative">
+          <img src={project4} alt="project4" />
+          <div className="opacity-0 group-hover:opacity-90 bg-[gray]/30 absolute inset-0 flex flex-col justify-center items-center">
+            <span className="text-2xl font-bold text-white tracking-wider">
+              Hunter Booking
+            </span>
+            <div className="pt-8 text-center">
+              <a
+                href="https://anixunter.github.io/hunterbooking-client/"
+                target="_blank"
+              >
+                <button className="text-center rounded-lg px-4 py-3 m-2 bg-primary-color text-white font-bold text-lg">
+                  Live
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative">
+          <img src={project5} alt="project5" />
+          <div className="opacity-0 group-hover:opacity-90 bg-[gray]/30 absolute inset-0 flex flex-col justify-center items-center">
+            <span className="text-2xl font-bold text-white tracking-wider">
+              Hunter Booking Admin
+            </span>
+            <div className="pt-8 text-center">
+              <a
+                href="https://anixunter.github.io/hunterbooking-admin/"
+                target="_blank"
+              >
+                <button className="text-center rounded-lg px-4 py-3 m-2 bg-primary-color text-white font-bold text-lg">
+                  Live
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative">
           <img src={project1} alt="project1" />
           <div className="opacity-0 group-hover:opacity-90 bg-[gray]/30 absolute inset-0 flex flex-col justify-center items-center">
             <span className="text-2xl font-bold text-white tracking-wider">
@@ -23,6 +59,24 @@ const Projects = () => {
             <div className="pt-8 text-center">
               <a
                 href="https://anixunter.github.io/iceposeidonvsnepal/"
+                target="_blank"
+              >
+                <button className="text-center rounded-lg px-4 py-3 m-2 bg-primary-color text-white font-bold text-lg">
+                  Live
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative">
+          <img src={project6} alt="project6" />
+          <div className="opacity-0 group-hover:opacity-90 bg-[gray]/30 absolute inset-0 flex flex-col justify-center items-center">
+            <span className="text-2xl font-bold text-white tracking-wider">
+              Anime Tracker
+            </span>
+            <div className="pt-8 text-center">
+              <a
+                href="https://anixunter.github.io/anime-tracker/"
                 target="_blank"
               >
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-primary-color text-white font-bold text-lg">
@@ -59,60 +113,6 @@ const Projects = () => {
             <div className="pt-8 text-center">
               <a
                 href="https://anixunter.github.io/wordle-game/"
-                target="_blank"
-              >
-                <button className="text-center rounded-lg px-4 py-3 m-2 bg-primary-color text-white font-bold text-lg">
-                  Live
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative">
-          <img src={project4} alt="project4" />
-          <div className="opacity-0 group-hover:opacity-90 bg-[gray]/30 absolute inset-0 flex flex-col justify-center items-center">
-            <span className="text-2xl font-bold text-white tracking-wider">
-              Luffy vs Pirate
-            </span>
-            <div className="pt-8 text-center">
-              <a
-                href="https://anixunter.github.io/battle-game/"
-                target="_blank"
-              >
-                <button className="text-center rounded-lg px-4 py-3 m-2 bg-primary-color text-white font-bold text-lg">
-                  Live
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative">
-          <img src={project5} alt="project5" />
-          <div className="opacity-0 group-hover:opacity-90 bg-[gray]/30 absolute inset-0 flex flex-col justify-center items-center">
-            <span className="text-2xl font-bold text-white tracking-wider">
-              Dice Game
-            </span>
-            <div className="pt-8 text-center">
-              <a
-                href="https://anixunter.github.io/dicegame-react/"
-                target="_blank"
-              >
-                <button className="text-center rounded-lg px-4 py-3 m-2 bg-primary-color text-white font-bold text-lg">
-                  Live
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative">
-          <img src={project6} alt="project6" />
-          <div className="opacity-0 group-hover:opacity-90 bg-[gray]/30 absolute inset-0 flex flex-col justify-center items-center">
-            <span className="text-2xl font-bold text-white tracking-wider">
-              Hangman
-            </span>
-            <div className="pt-8 text-center">
-              <a
-                href="https://anixunter.github.io/hangman-game/"
                 target="_blank"
               >
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-primary-color text-white font-bold text-lg">

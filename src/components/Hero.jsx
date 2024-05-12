@@ -56,7 +56,7 @@ const Hero = () => {
           <div className="relative inline-flex group my-3">
             <div className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44bcff] via-[#ff44ec] to-[#ff675e] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200"></div>
             <a
-              href="https://drive.google.com/file/d/1ZGR5hRl4JxNML4nBv5c01IFsNWKN2XRa/view?usp=sharing"
+              href="https://drive.google.com/file/d/1XHsxvQBolmhWaPVEiSBtP5acjLbmLKKS/view?usp=sharing"
               target="_blank"
               title="CV"
               role="button"
@@ -66,13 +66,13 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="my-auto">
+        {/* <div className="my-auto">
           <img
             className="w-[200px] sm:w-[300px] mx-auto h-auto"
             src={profilepic}
             alt="profile pic"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
