@@ -56,7 +56,7 @@ const Hero = () => {
           <div className="relative inline-flex group my-3">
             <div className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44bcff] via-[#ff44ec] to-[#ff675e] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200"></div>
             <a
-              href="https://drive.google.com/file/d/1XHsxvQBolmhWaPVEiSBtP5acjLbmLKKS/view?usp=sharing"
+              href="https://drive.google.com/file/d/1nr1dWF_I82nfrCV2kcPR0HixB4QqIcLp/view?usp=sharing"
               target="_blank"
               title="CV"
               role="button"
